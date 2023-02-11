@@ -1,0 +1,7 @@
+#for all dependencies 
+node_modules
+./.env
+
+#to ignore the images folder
+uploads
+.env

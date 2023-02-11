@@ -1,0 +1,31 @@
+{
+  "name": "sumit_portfolio_backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "backend server api and database management for sumit portfolio website using express and mongoose",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js --watch server.js --watch ./src/*/**.js ",
+    "watch:js": "onchange src/**.js --npm run dev"
+  },
+  "author": "Rational_Thinkerz",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "blurhash": "^2.0.4",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.8.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.8.0",
+    "sharp": "^0.31.3",
+    "speakeasy": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
